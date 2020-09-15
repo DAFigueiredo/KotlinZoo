@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".AnimalListActivity"
+            android:name=".UI.AnimalListActivity"
             android:label="@string/title_animal_list"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -20,13 +20,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".AnimalDetailActivity"
+            android:name=".UI.AnimalDetailActivity"
             android:label="@string/title_animal_detail"
-            android:parentActivityName=".AnimalListActivity"
+            android:parentActivityName=".UI.AnimalListActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.kotlinzoo.AnimalListActivity" />
+                android:value="com.example.kotlinzoo.UI.AnimalListActivity" />
         </activity>
     </application>
 

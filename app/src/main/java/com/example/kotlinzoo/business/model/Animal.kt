@@ -32,4 +32,7 @@ class Animal {
         return age
     }
 
+    fun getDescription(): String {
+        return "the $name, is from $sex, and is a $foodType"
+    }
 }
