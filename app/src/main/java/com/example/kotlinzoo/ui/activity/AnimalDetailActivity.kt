@@ -1,4 +1,4 @@
-package com.example.kotlinzoo.UI
+package com.example.kotlinzoo.ui.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,6 +7,7 @@ import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.MenuItem
 import com.example.kotlinzoo.R
+import com.example.kotlinzoo.ui.fragment.AnimalDetailFragment
 
 /**
  * An activity representing a single Animal detail screen. This

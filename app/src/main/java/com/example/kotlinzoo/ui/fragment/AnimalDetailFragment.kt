@@ -1,4 +1,4 @@
-package com.example.kotlinzoo.UI
+package com.example.kotlinzoo.ui.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
