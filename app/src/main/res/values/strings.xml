@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KotlinZoo</string>
+    <string name="title_animal_list">Animals</string>
+    <string name="title_animal_detail">Animal Detail</string>
+</resources>
